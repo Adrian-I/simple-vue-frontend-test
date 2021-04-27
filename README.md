@@ -3,9 +3,11 @@
 
 ## Descriere
 
-Pornind de la acest repository, adăugați acțiunile de sortare alfabetică pe butoanele din pagina de utilizatori și menționați lângă fiecare user compania la care lucrează. Apoi adăugați o pagină nouă în meniu unde unde să fie listate postările din acest flux de date: https://jsonplaceholder.typicode.com/posts
+Pornind de la acest repository, înlocuiți lista de utilizatori cu una încărcată dinamic din acest flux de date: https://jsonplaceholder.typicode.com/posts, folosind librăria axios https://github.com/axios/axios, care va trebui întâi instalată și adăugată în proiect.
 
-Postările vor fi încărcate asincron, direct din flux, și vor trebui grupate și delimitate vizual per utilizator. Încărcarea lor se va face cu librăria axios https://github.com/axios/axios, care va trebui întâi instalată și adăugată în proiect.
+Afișați apoi utilizatori într-o grilă responsive, cu design și mod de implementare la alegere. Pe telefon vor fi afișați câte 2 utilizatori pe linie, pe tablete câte 3, iar pe desktop în funcție de câți încap. Pentru fiecare utilizator se va utiliza un pseudo-avatar, care va consta în afișarea inițialelor numelui în interiorul unui cerc colorat.
+
+Bonus: Adăugați acțiunile de sortare alfabetică a utilizatorilor la click pe cele două butoane deja definite.
 
 Documentația Vue este disponibilă aici: https://vuejs.org/v2/guide/
 
